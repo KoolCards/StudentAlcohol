@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  
+    <title>Lynbrook FTC</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+    
+</head>
+<body>
+    <div class = "section background">
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="header center title">Underage Alcohol Consumption</h1>
+      <div class="row center">
+        <h5 class="header col s12 titletext">We can help you find out your risk of underage alcohol consumption just be filling out this survey.</h5>
+      </div>
+          <div class="container">
+    <div class="section">
+        <form action="http://localhost/runoctave.php" class = "form-text white-text" method = "post">
+What is your sex? (Enter 0 for male and 1 for female.) <input class = "form-text white-text" type="text" name="sex" >
+What is your age? (Enter value between 15 and 22) <input class = "form-text white-text" type="text" name="age" value="">
+Where do you live? (Enter 0 for urban setting and 1 for rural setting) <input class = "white-text" type="text" name="address" value="">
+What is your mother's education? (Enter 0 for none, 1 for primary education, 2 for 5th-9th grade, 3 for secondary education, and 4 for higher education) <input class = "form-text white-text" type="text" name="educationm" value="">
+What is your father's education? (Enter 0 for none, 1 for primary education, 2 for 5th-9th grade, 3 for secondary education, and 4 for higher education) <input class = "form-text white-text" type="text" name="educationf" value="">
+How long do you study per week? (Enter 1 for less than 2 hours, 2 for 2-5 hours, 3 for 5-10 hours, and 4 for greater than 10 hours)<input class = "form-text white-text" type="text" name="studytime" value="">
+How many classes have you failed (Enter 3 for any number of classes greater than 2)<input class = "form-text white-text" type="text" name="failedclasses" value="">
+Do you take any supplementary educational courses? (Enter 0 for no and 1 for yes)<input class = "form-text white-text" type="text" name="supp" value="">
+            Do you do any extracurricular activities? (Enter 0 for no and 1 for yes)<input class = "form-text white-text" type="text" name="extra" value="">
+            Do you want to do higher education? (Enter 0 for no and 1 for yes)<input class = "form-text white-text" type="text" name="higher" value="">
+            What is the quality of your family relationships? (Enter from 1 for very bad to 5 for excellent)<input class = "form-text white-text" type="text" name="famrel" value="">
+            How much free time do you have? (Enter from 1 for little to 5 for a lot)<input class = "form-text white-text" type="text" name="freetime" value="">
+            How often do you go out with friends? (Enter from 1 for little to 5 for a lot)<input class = "form-text white-text" type="text" name="friends" value="">
+            How many days have you been absent this year? (Maximum value is 93)<input class = "form-text white-text" type="text" name="absent" value="">
+<input type="submit" class = "submitbutton">
+</form>
+
+  </div>
+        </div>
+      </div>
+        </div>
+    </div>
+      
+
+  </body>
+</html>

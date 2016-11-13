@@ -1,0 +1,200 @@
+.topnav {
+    background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    color:#0091EA;
+    font-weight: 700;
+    opacity: 80%;
+}
+.background {
+    background-color: #05233F;
+    padding-bottom: 2%;
+    border-bottom: 1px solid white;
+}
+
+.submitbutton {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #05233F;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1.5% 3% 1.5% 3%;
+    border: 0px solid white;
+    border: 1px solid white;
+}
+.submitbutton:hover {
+    background-color: #0091EA;
+}
+
+.form-text {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+   font-family: 'Ubuntu', sans-serif;
+    color:white;
+    
+}
+.title {
+    font-weight:400;
+    font-size: 300%;
+    margin-top: 0%;
+    color:white;
+}
+
+.titletext {
+    font-size:190%;
+    margin-top: 0%;
+    color:white;
+    font-weight: 300;
+}
+
+.imageblock {
+    margin-top: -5%;
+}
+
+#download-button {
+    margin-top: -10%;
+   font-family: 'Ubuntu', sans-serif;
+    font-size:200%;
+    font-weight: 600;    
+    color:white;
+    background-color: #05233F;
+    border-color:white;
+    border:1px solid;
+  border-color:white;
+}
+
+#download-button:hover {
+    background-color:#0091EA;
+    color:white;
+}
+
+.homebtn {
+    font-size: 45%;
+    color:#7a7a7a;
+}
+
+.navigate {
+    opacity: 80%;
+}
+
+.original, .homebtn:hover {
+    color: #05233F;
+}
+.navigate {
+    margin-right: -20%;
+}
+
+.vidsection {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #DEE9F1;
+    padding-bottom: 2.5%;
+     border-bottom: 1px solid white;
+}
+button{  position: absolute; top:37%; right:30%;
+    border: 1px solid red; display: block; background: #FFF; 
+    z-index: 2147483647;
+} 
+.video-container {
+    border: 10px solid #05233F;
+}
+.gametitle {
+    font-weight: 400;
+    font-size: 45px;
+    background-color: #DEE9F1;
+    color:black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 2%;
+}
+
+
+#first-child {
+  height: 200px;
+  width: 200px;
+  background: oranges;
+
+  }
+.cardbackground {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:600;
+    padding-bottom: 3%;
+     border-top: 1px solid white;
+}
+
+.card {
+    background-color: #02a9e6;
+    border: 1px solid white;
+    margin-top: 5%;
+}
+
+.card2 {
+    background-color: rgb(15,118,186);
+    border: 1px solid white;
+}
+
+.bottom-card {
+    margin-top: -2.5%;
+}
+@media screen and (min-width: 900px) {
+    .card {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.page-footer {
+    background-color: rgb(15,118,186);
+    border-top: 1px solid white;
+    margin-top:-200%;
+}
+
+.formlink {
+    margin-top: 10%;
+}
+
+.signuplink:hover {
+   color:black;
+}
+
+.bottombackground {
+    background-color: black;
+    margin-top:-4%;
+    padding-bottom: 4%;
+}
+
+.tourncard {
+    margin-top: -2.5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:black;
+    font-size:17px;
+}
+.tourney {
+    margin-left:17.5%;
+    width:23%;
+    height: 200px;
+    border:1px solid white;
+}
+.cardtourn {
+    background-color: white;
+    color:black;
+}
+.brand-logo {
+    height:100%;
+    margin-left: -21%;
+}
+.tournamenttitle {
+    color:rgb(15,118,186);
+}
+.carddesc, .cardtext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.card-content {
+    font-size:18px;
+}
