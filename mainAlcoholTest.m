@@ -3,9 +3,6 @@ clear ; close all; clc
 data = load('formatdata.txt');
 data2 = load('octaveinput.txt');
 X = data(:, [1,2,3,4,5,7,8,9,12,14,17,18,19,23]);
-fid = fopen("testin.text",'w');
-fprintf(fid,'%u', X);
-fclose(fid);
 y = data (:, [20]);
 y = update(y, X);
 [m, n] = size(X);
