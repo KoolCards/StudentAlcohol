@@ -21,6 +21,7 @@
     border: 0px solid white;
     border: 1px solid white;
 }
+
 .submitbutton:hover {
     background-color: #0091EA;
 }
@@ -47,6 +48,9 @@
     font-weight: 300;
 }
 
+.titletextfinal {
+    margin-top: 50%;
+}
 .imageblock {
     margin-top: -5%;
 }
@@ -76,7 +80,13 @@
 .navigate {
     opacity: 80%;
 }
+.submitbutton {
+    margin-left: 42%;
+}
 
+.movedown {
+    margin-top: 60%;
+}
 .original, .homebtn:hover {
     color: #05233F;
 }
@@ -109,7 +119,6 @@ button{  position: absolute; top:37%; right:30%;
     margin-right: 28%;
     margin-top: 2%;
 }
-
 
 #first-child {
   height: 200px;
