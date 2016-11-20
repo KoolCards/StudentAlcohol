@@ -6,7 +6,7 @@ Using logistic regression algorithms to predict the likelihood of a student to d
  3.Clone this entire repository without the test.sh file into the htdocs folder of xampp (C:/xampp/htdocs).<br />
  4.Clone the test.sh file into the C:/Octave/Octave-4.0.3 folder.<br />
 ## Run
-1.Run index.html from the htdocs folder.
-2.Click the submit button at the bottom of the page.
-3.Run the test.sh file in the bash application.
-4.Click view my results on the webpage.
+1.Run index.html from the htdocs folder.<br />
+2.Click the submit button at the bottom of the page.<br />
+3.Run the test.sh file in the bash application.<br />
+4.Click view my results on the webpage.<br />
