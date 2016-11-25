@@ -1,0 +1,18 @@
+Features (14):
+  Sex
+  Age
+  Urban or Rural Home
+  Mother's Education
+  Father's Education
+  Study Time
+  Failed Classes
+  Supplementary Education
+  Extracuriculars
+  Higher Education
+  Family Relationships
+  Free Time
+  Activities with Friends
+  Days Absent
+Classification (Binary):
+  Weekly Alcohol Consumption >= 2 on scale defined by training set data = 1 (high)
+  Weekly Alcohol Consumption < 2 on scale defined by training set data = 1 (high)
